@@ -1,5 +1,6 @@
-# 2048-replica
-This is a replica of game 2048.
+# Matrix 2048 Game
 
-The assets used in this replica don't belong to me.
-I have created this replica to learn unity by watching a tutorial series on youtube under the channel Dev Tutorials. He is an awesome tutor you should also check out his channel.
+Build with Unity and C#.
+
+### How to Play:
+Use swipe to move the tiles. When tiles with same number touches they merge to form a new tile of 2x its number.
