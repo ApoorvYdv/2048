@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1921162604505182}
+  m_IsPrefabAsset: 1
+--- !u!1 &1921162604505182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4701213387845826}
+  - component: {fileID: 114622203077422928}
+  - component: {fileID: 114895231080653474}
+  - component: {fileID: 114149287969614058}
+  - component: {fileID: 114920948330935772}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4701213387845826
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921162604505182}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114149287969614058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921162604505182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e6c3abd33284a3eadbcc5311ef263b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114622203077422928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921162604505182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0f0632fe2314328a037c96beb1848f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bestScore: {fileID: 0}
+  currentScore: {fileID: 0}
+--- !u!114 &114895231080653474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921162604505182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3160b130f32c240e6a7884feca7780c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverPanel: {fileID: 0}
+  state: 0
+  delay: 0.03
+--- !u!114 &114920948330935772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921162604505182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db151b1555bab43fcb192e933879dd03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileStyles:
+  - number: 2
+    tileColor: {r: 0, g: 1, b: 0.92857146, a: 1}
+    numberColor: {r: 1, g: 1, b: 1, a: 1}
+  - number: 4
+    tileColor: {r: 0.36320752, g: 0.75277454, b: 1, a: 1}
+    numberColor: {r: 1, g: 1, b: 1, a: 1}
+  - number: 8
+    tileColor: {r: 0.48584908, g: 0.585071, b: 1, a: 1}
+    numberColor: {r: 1, g: 1, b: 1, a: 1}
+  - number: 16
+    tileColor: {r: 0.71903944, g: 0.4481132, b: 1, a: 1}
+    numberColor: {r: 1, g: 1, b: 1, a: 1}
+  - number: 32
+    tileColor: {r: 1, g: 0.4198113, b: 0.92189765, a: 1}
+    numberColor: {r: 1, g: 1, b: 1, a: 1}
+  - number: 64
+    tileColor: {r: 1, g: 0.4575472, b: 0.6202831, a: 1}
+    numberColor: {r: 1, g: 1, b: 1, a: 1}
+  - number: 128
+    tileColor: {r: 1, g: 0.55275315, b: 0.5235849, a: 1}
+    numberColor: {r: 1, g: 1, b: 1, a: 1}
+  - number: 256
+    tileColor: {r: 1, g: 0.7465877, b: 0.5235849, a: 1}
+    numberColor: {r: 1, g: 1, b: 1, a: 1}
+  - number: 512
+    tileColor: {r: 1, g: 0.8812369, b: 0.514151, a: 1}
+    numberColor: {r: 1, g: 1, b: 1, a: 1}
+  - number: 1024
+    tileColor: {r: 0.9256253, g: 1, b: 0.4669811, a: 1}
+    numberColor: {r: 1, g: 1, b: 1, a: 1}
+  - number: 2048
+    tileColor: {r: 0.6668632, g: 1, b: 0.4669811, a: 1}
+    numberColor: {r: 1, g: 1, b: 1, a: 1}
